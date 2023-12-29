@@ -12,7 +12,7 @@ export default function Home() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [newTask, setNewTask] = useState<string>('');
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
-  const apiUrl = 'http://157.97.109.230/tasks';
+  const apiUrl = 'https://to-do-api.andriana-nails.com/tasks';
   const apiKey = 'thisAPIKeyIsVerySecret1234';
   const [credentials, setCredentials] = useState({ username: '', password: '' })
 
